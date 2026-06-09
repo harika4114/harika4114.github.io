@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://yourusername.github.io"
 
 # Build settings
-theme: jekyll-theme-jykell
+theme: minima
 plugins:
   - jekyll-feed
 
