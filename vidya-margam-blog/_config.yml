@@ -1,0 +1,25 @@
+title: Vidya Margam Blog
+description: >-
+  A blog documenting the journey of building Vidya Margam,
+  an AI-powered educational platform combining Translation APIs with Vertex AI RAG.
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Minima theme customization
+minima:
+  skin: dark
+  social_links:
+    - platform: linkedin
+      user_profile_url: "https://www.linkedin.com/in/yourprofile"
+    - platform: github
+      user_profile_url: "https://github.com/yourusername"
+
+# Markdown processing
+markdown: kramdown
+kramdown:
+  parse_block_html: true
