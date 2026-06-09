@@ -6,18 +6,12 @@ baseurl: ""
 url: "https://yourusername.github.io"
 
 # Build settings
-theme: minima
+theme: jekyll-theme-jykell
 plugins:
   - jekyll-feed
 
-# Minima theme customization
-minima:
-  skin: dark
-  social_links:
-    - platform: linkedin
-      user_profile_url: "https://www.linkedin.com/in/yourprofile"
-    - platform: github
-      user_profile_url: "https://github.com/yourusername"
+# Jykell theme customization
+# Add any Jykell-specific configuration here if needed.
 
 # Markdown processing
 markdown: kramdown
